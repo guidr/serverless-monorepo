@@ -1,0 +1,27 @@
+[
+  {
+    "id": "0d0df539-d18d-4d17-ba5d-c9b53ba81b06",
+    "name": "Guilherme",
+    "country": "BR"
+  },
+  {
+    "id": "cbf261e3-c751-40e3-ac4f-fd1e2f9011d3",
+    "name": "Ryan",
+    "country": "AU"
+  },
+  {
+    "id": "29dda61c-800f-4d33-8b98-2cb83db7bea5",
+    "name": "Dominik",
+    "country": "PL"
+  },
+  {
+    "id": "65ba6e72-77a1-49a6-8ca7-f7cd10addc51",
+    "name": "Erica",
+    "country": "IT"
+  },
+  {
+    "id": "cf63583f-6651-4159-b700-b159928a1b2f",
+    "name": "Dmitri",
+    "country": "RU"
+  }
+]

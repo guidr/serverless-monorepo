@@ -1,0 +1,27 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+    "interface-name": [true, "never-prefix"],
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "quotemark": {
+      "options": ["single", "avoid-escape"]
+    },
+    "variable-name": {
+      "options": [
+        "ban-keywords",
+        "check-format",
+        "allow-leading-underscore",
+        "require-const-for-all-caps"
+      ]
+    }
+  },
+  "rulesDirectory": [],
+  "exclude": [
+    "**/*.d.ts"
+  ]
+}

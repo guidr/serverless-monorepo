@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+
+    "composite": false,
+    "declaration": false,
+    "strict": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "skipLibCheck": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+
+    "rootDir": ".",
+    "baseUrl": "./packages",
+    "paths": {
+      "@rooster/core/*": ["./core/src/*"]
+    }
+  },
+
+  "files": [],
+
+  "references": [
+    { "path": "packages/core" },
+    { "path": "packages/graphql" }
+  ],
+
+  "include": [
+    "packages/@types/**/*.d.ts"
+  ],
+
+  "exclude": [
+    "node_modules",
+    "packages/**/*.test.ts",
+    "packages/**/__mocks__/*"
+  ]
+}

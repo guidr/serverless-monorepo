@@ -1,0 +1,17 @@
+{
+  "name": "@rooster/users",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rm -rf ./dist tsconfig.tsbuildinfo",
+    "lint": "tslint --project tsconfig.json",
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "watch": "tsc -w"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.31",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}

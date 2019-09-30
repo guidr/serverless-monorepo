@@ -1,0 +1,7 @@
+graphql:
+  handler: packages/graphql/dist/handler.graphql
+  events:
+    - http:
+        path: graphql
+        method: post
+        cors: true

@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "**/dist": true,
+    "**/lib": true,
+  },
+
+  "search.exclude": {
+    "**/dist": true,
+    "**/lib": true,
+  },
+
+  "jest.pathToJest": "yarn test",
+  "jest.rootPath": "packages",
+}

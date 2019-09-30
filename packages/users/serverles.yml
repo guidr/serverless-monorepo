@@ -1,0 +1,5 @@
+getUser:
+  handler: packages/users/dist/functions/getUser/handler.default
+
+listUsers:
+  handler: packages/users/dist/functions/listUsers/handler.default

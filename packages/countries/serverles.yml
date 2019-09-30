@@ -1,0 +1,5 @@
+getCountry:
+  handler: packages/countries/dist/functions/getCountry/handler.default
+
+listCountries:
+  handler: packages/countries/dist/functions/listCountries/handler.default

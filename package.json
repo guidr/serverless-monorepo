@@ -1,0 +1,28 @@
+{
+  "name": "tickets-api",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "lerna": "^3.16.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "serverless-dotenv-plugin": "^2.1.1",
+    "serverless-offline": "^5.11.0",
+    "ts-jest": "^24.1.0"
+  },
+  "scripts": {
+    "build": "lerna run build",
+    "clean": "lerna run clean",
+    "codegen": "lerna run codegen --scope @rooster/graphql",
+    "dev": "serverless offline start",
+    "invoke": "serverless invoke local --function",
+    "lint": "lerna run lint --stream -- --format codeFrame",
+    "test": "NODE_ENV=test jest",
+    "watch": "lerna run watch --parallel"
+  }
+}

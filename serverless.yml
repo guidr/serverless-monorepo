@@ -1,0 +1,22 @@
+service: rooster-api
+
+frameworkVersion: ">=1.1.0 <2.0.0"
+
+plugins:
+  - serverless-dotenv-plugin
+  - serverless-offline
+
+package:
+  individually: true
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: ${opt:stage, 'dev'}
+  environment:
+    AWS_STAGE: ${self:provider.stage}
+
+functions:
+  - ${file(./packages/graphql/serverles.yml)}
+  - ${file(./packages/countries/serverles.yml)}
+  - ${file(./packages/users/serverles.yml)}

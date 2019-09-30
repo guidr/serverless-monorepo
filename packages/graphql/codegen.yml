@@ -1,0 +1,14 @@
+schema: http://localhost:3000/graphql
+
+generates:
+  src/types.d.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+
+config:
+  typesPrefix: GQL
+  immutableTypes: true
+  scalars:
+    DateTime: Date
+    JSON: { [key: string]: any }

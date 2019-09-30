@@ -1,0 +1,20 @@
+{
+  "name": "@rooster/core",
+  "version": "0.0.0",
+  "private": true,
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rm -rf ./lib tsconfig.tsbuildinfo",
+    "lint": "tslint --project tsconfig.json",
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.531.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  }
+}
